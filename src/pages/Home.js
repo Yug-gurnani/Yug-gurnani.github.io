@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 const Home = () => {
@@ -8,14 +8,14 @@ const Home = () => {
       <div className="flex items-center justify-center min-h-screen">
         <div className="bg-white sm:p-10 p-5 rounded-lg shadow-xl m-1 hover:shadow-2xl">
           <div className="sm:text-4xl text-2xl font-bold whitespace-nowrap">
-            Sanjay Prajapati
+            Yug Gurnani
           </div>
           <div className="sm:text-2xl text-lg text-center mt-3 mb-5 whitespace-nowrap">
-            Software Engineer
+            Software Developer
           </div>
           <div className="flex items-center justify-center space-x-4">
             <a
-              href="https://www.github.com/sanjay270899"
+              href="https://github.com/Yug-gurnani"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
@@ -23,7 +23,7 @@ const Home = () => {
               <FaGithub size={15} />
             </a>
             <a
-              href="https://www.linkedin.com/in/sanjay270899"
+              href="https://www.linkedin.com/in/yug-gurnani-2595121aa/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
@@ -31,16 +31,16 @@ const Home = () => {
               <FaLinkedinIn size={15} />
             </a>
             <a
-              href="https://www.twitter.com/sanjay270899"
+              href="https://www.instagram.com/kal._yug/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
             >
-              <FaTwitter size={15} />
+              <FaInstagram size={15} />
             </a>
           </div>
           <a
-            href="mailto:sanjay270899@gmail.com"
+            href="mailto:yug.gurnani091@gmail.com"
             className="group flex items-center text-center bg-black text-white w-min whitespace-nowrap m-auto mt-7 px-4 py-2 rounded cursor-pointer hover:bg-white hover:text-black border-2 border-black"
           >
             <RiSendPlaneFill size={17} className="group-hover:animate-ping" />
