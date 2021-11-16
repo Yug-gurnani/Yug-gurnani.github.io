@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFilePdf } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 const Home = () => {
@@ -31,12 +31,12 @@ const Home = () => {
               <FaLinkedinIn size={15} />
             </a>
             <a
-              href="https://www.instagram.com/kal._yug/"
+              href="https://drive.google.com/file/d/1_rPny3KVt_pOSDE9lFx7ektRafvgX86x/view?usp=sharing&usp=embed_facebook"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
             >
-              <FaInstagram size={15} />
+              <FaFilePdf size={15} />
             </a>
           </div>
           <a
